@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: linear-gradient(120deg, lightblue, lightgreen);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(240, 128, 128, 0.479);
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 85%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.411);
+}
+
+.container h1 {
+  letter-spacing: 3px;
+  word-spacing: 7px;
+  margin-bottom: 30px;
+}
+
+.curren-one,
+.curren-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#primary-cur,
+#secondary-cur {
+  width: 30%;
+  height: 40px;
+  font-size: 17px;
+  text-align: center;
+  outline: none;
+  max-width: 80px;
+  background-color: lightgreen;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  width: 70%;
+  max-width: 150px;
+  background-color: lightcyan;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 17px;
+  padding: 10px;
+}
+
+p {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  word-spacing: 3px;
+}

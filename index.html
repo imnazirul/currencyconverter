@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency Converter</h1>
+
+      <div class="curren-one">
+        <select id="primary-cur">
+          <option value="USD" selected>USD</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="INR">INR</option>
+          <option value="EUR">EUR</option>
+          <option value="BDT">BDT</option>
+        </select>
+
+        <input type="number" value="1" class="primary-input" />
+      </div>
+
+      <div class="curren-two">
+        <select id="secondary-cur">
+          <option value="USD">USD</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="INR">INR</option>
+          <option value="EUR">EUR</option>
+          <option value="BDT" selected>BDT</option>
+        </select>
+
+        <input type="number" disabled class="secondary-input" />
+      </div>
+      <p class="currency-info">1 dollar = 110.76 bdt</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
