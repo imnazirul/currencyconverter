@@ -23,8 +23,7 @@ async function updateRate() {
   );
   const responseJson = await response.json();
   const conversionRate = responseJson.conversion_rates;
-
-  primary_input.value = "1";
+
 
   currency_info.innerText = `1 ${primary_currency.value} = ${conversionRate[
     secondary_currency.value
